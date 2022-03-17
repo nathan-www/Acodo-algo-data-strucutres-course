@@ -1,0 +1,33 @@
+{
+  "id":943002,
+  "title":"Palindrome integers",
+  "difficulty":"easy",
+  "xp":1,
+  "authors":[2798432272],
+  "language":"Python",
+  "test_file":"tests.py",
+  "default_file":"default.py",
+  "brief_file":"brief.md",
+  "tests":[
+    {
+      "title":"`isPalindrome(123)` returns `False`",
+      "subtitle":"",
+      "func":"test1"
+    },
+    {
+      "title":"`isPalindrome(-686)` returns `False`",
+      "subtitle":"",
+      "func":"test2"
+    },
+    {
+      "title":"`isPalindrome(112232211)` returns `True`",
+      "subtitle":"",
+      "func":"test3"
+    },
+    {
+      "title":"Dynamic test",
+      "subtitle":"Your code must pass 3 randomly generated inputs",
+      "func":"test4"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id":944001,
+  "title":"Length of list",
+  "difficulty":"easy",
+  "xp":1,
+  "authors":[2798432272],
+  "language":"Python",
+  "test_file":"tests.py",
+  "default_file":"default.py",
+  "brief_file":"brief.md",
+  "tests":[
+    {
+      "title":"`listLength([1,2,3,4])` returns `4`",
+      "subtitle":"",
+      "func":"test1"
+    },
+    {
+      "title":"`listLength([5,5,2,6,1,8,0])` returns `7`",
+      "subtitle":"",
+      "func":"test2"
+    },
+    {
+      "title":"`listLength([])` returns `0`",
+      "subtitle":"",
+      "func":"test3"
+    },
+    {
+      "title":"Dynamic test",
+      "subtitle":"Your code must pass 3 randomly generated inputs",
+      "func":"test4"
+    }
+  ]
+}
